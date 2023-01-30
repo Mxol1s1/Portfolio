@@ -1,0 +1,28 @@
+.Header{
+  
+    display: flex;
+    padding: 20px;
+}
+
+
+.Header img {
+    width: 20%;
+    height: 20%;
+    clip-path: circle();
+
+}
+
+.Profile{
+    margin-top: 10%;
+    margin-left: 15px;
+}
+
+
+.Profile h3, p{
+    color: rgb(166, 174, 225);
+}
+
+.Profile p{
+    font-size: small;
+}
+

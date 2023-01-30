@@ -3,10 +3,9 @@ import App from './App';
 import '@testing-library/jest-dom';
 
 
-test("On page started, text diplay say 'I am here'" , () => 
+test("Should contain the correct text on page" , () => 
 {
     render(<App/>);
-
-  const linkElement =  screen.getByText(/I am here/i);
+  const linkElement =  screen.getByText(/Mxolisi Magubane/i);
   expect(linkElement).toBeInTheDocument();
 });
