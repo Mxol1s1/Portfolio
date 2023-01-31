@@ -13,7 +13,6 @@ beforeEach(() =>{
     getByTestId =  component.getByTestId;
 })
 
-
 test("Name should be correct", () =>
 {
     const nameElement = getByTestId("name");
