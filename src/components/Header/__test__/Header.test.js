@@ -14,13 +14,13 @@ beforeEach(() =>{
 })
 
 
-test("name should be correct", () =>
+test("Name should be correct", () =>
 {
     const nameElement = getByTestId("name");
     expect(nameElement.textContent).toBe("Mxolisi Magubane");
 })
 
-test("description should be correct", () =>
+test("Description should be correct", () =>
 {
     const descriptionElement = getByTestId("bio_description");
     expect(descriptionElement.textContent).toBe("Hello, World!");
