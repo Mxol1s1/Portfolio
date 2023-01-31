@@ -11,6 +11,7 @@ const Header = () => {
           <h3 data-testid ="name">Mxolisi Magubane</h3>
           <p data-testid ="bio_description">Hello, World!</p> 
       </div>
+      
     </div>
   )
 }
