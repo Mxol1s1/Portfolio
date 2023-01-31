@@ -1,5 +1,4 @@
 .Header{
-  
     display: flex;
     padding: 20px;
 }
@@ -9,7 +8,6 @@
     width: 20%;
     height: 20%;
     clip-path: circle();
-
 }
 
 .Profile{
