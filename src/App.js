@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import "./App.css"
+import { Header, NavBar } from "./components";
+import "./App.css";
 
 
 const App = () =>
@@ -8,7 +8,9 @@ const App = () =>
     return (
     <div className="App">
         <div>
+            <NavBar/>
             <Header/>
+            
         </div>
     </div>
     
