@@ -9,9 +9,10 @@ import "@testing-library/jest-dom";
 let getByTestId;
 
 beforeEach(() =>{
-    const component = render(<Header/>);
+    const component = render(<Header languages={[]}/>);
     getByTestId =  component.getByTestId;
 })
+
 
 
 
@@ -26,6 +27,8 @@ test("Description should be correct", () =>
     const descriptionElement = getByTestId("bio_description");
     expect(descriptionElement.textContent).toBe("Hello, World!");
 })
+
+
 
 // test("Correct icons link correspond with correct image tag source", () =>{
 //   const csharp_icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"

@@ -29,7 +29,7 @@ const Header = ({ languages }) => {
           <ul>
           {languages.map((item) =>(
 
-              <li key={item.id}>
+              <li  key={item.id}>
                   <img src={item.link}  alt={item.alt}/>
               </li>
 
