@@ -6,12 +6,13 @@ import logo from "../../assets/logo.png";
 const NavBar = () => {
   return (
     <div className='NavBar'>
+
       <div className='navbar_logo'>
           <img data-testid="logo"  src={logo} alt="logo"/>
       </div>
+
       <div className="navbar_links_container">
 
-     
         <div className='navbar_links'>
           <p><a data-testid="home" href='/'>Home</a></p>
           <p><a data-testid ="about" href='about'>About</a></p>

@@ -14,13 +14,11 @@
     margin-right: 50px;
 }
 
-
 .navbar_links
 {
     display: flex;
     flex-direction: row;
 }
-
 
 .navbar_logo img{
     width: 50px;
@@ -57,6 +55,5 @@
     text-align: center;
     font-size: 20px;
     font-style: normal;
-    
     
 }

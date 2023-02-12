@@ -2,19 +2,10 @@ import React from "react";
 import "./Header.css"
 import  profile  from "../../assets/profile.png";
 
-const Header = () => {
-  const csharp_icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-  const java_icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-  const python_icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
-  const javascript_icon ="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-  const css_icon ="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-  const html_icon ="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-  const react_icon ="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-          
+const Header = ({ languages }) => {
   return (
     <div className="Header">
       
-
       <div className="Profile">
           <img src={profile} alt="profile"/>
           <div className="Profile_text">
@@ -35,13 +26,15 @@ const Header = () => {
       <hr className="Line"/>
 
       <div className="Skills_icons">
-            <img data-testid="csharp" src={csharp_icon}  alt="csharp"/>
-            <img data-testid="java"  src={java_icon}  alt="java"/>
-            <img data-testid="python"  src={python_icon} alt="python"/>
-            <img data-testid="html" src = {html_icon} alt="html"/>
-            <img data-testid="css" src={css_icon} alt="css"/>
-            <img data-testid="javascript"  src= {javascript_icon} alt="javascript"/> 
-            <img data-testid="react" src= {react_icon} alt ="react"/>
+          <ul>
+          {languages.map((item) =>(
+
+              <li key={item.id}>
+                  <img src={item.link}  alt={item.alt}/>
+              </li>
+
+            ))}
+          </ul>
       </div>
       
     </div>
