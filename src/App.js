@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, NavBar, Content } from "./components";
+import { Header, NavBar, Content , Work} from "./components";
 import "./App.css";
 
 
@@ -56,9 +56,9 @@ const App = () =>
         <div className="appBar">
             <NavBar/>
             <Header languages={languages} />
-            <Content/>
-            
         </div>
+        <Content/>
+        <Work/>
     </div>
     
         

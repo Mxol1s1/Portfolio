@@ -16,28 +16,28 @@ beforeEach(() =>{
 
 
 
-test("Name should be correct", () =>
+test("Name text should be correct", () =>
 {
     const nameElement = getByTestId("name");
     expect(nameElement.textContent).toBe("Mxolisi Magubane");
 })
 
-test("Description should be correct", () =>
+test("greeting text should be correct", () =>
 {
     const descriptionElement = getByTestId("bio_description");
     expect(descriptionElement.textContent).toBe("Hello, World!");
 })
 
+test("summary description text should be correct", () =>
+{
+    const descriptionElement = getByTestId("summary_description");
+    expect(descriptionElement.textContent).toBe("I am a Graduate Software Engineer \
+skilled in C#, Java, Python, and web development. I have a keen eye for detail \
+and love creating clean and efficient code. \nI am always eager to expand my \
+knowledge in the field of software engineering.  \nI do not mind digging into \
+boring work as more often than not it is where the details that matter are found.");
+})
 
 
-// test("Correct icons link correspond with correct image tag source", () =>{
-//   const csharp_icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-//   const java_icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-//   const python_icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
-//   const javascript_icon ="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-//   const css_icon ="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-//   const html_icon ="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-//   const react_icon ="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
 
 
-// })

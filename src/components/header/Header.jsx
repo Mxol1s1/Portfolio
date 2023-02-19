@@ -17,14 +17,15 @@ const Header = ({ languages }) => {
       <div className="Summary">
         <h2>Summary</h2>
         <hr className="Line"/>
-        <p>I am a Graduate Software Engineer skilled in C#, Java, Python, and {'\n'}web development. I have a keen eye for
-          detail and love creating clean and efficient code. {'\n'} I am always eager to expand my knowledge in the field of software
-          engineering.  {'\n'}I do not mind digging into boring work as more often than not it is where the details that matter are found.</p>
+        <p data-testid ="summary_description">I am a Graduate Software Engineer 
+skilled in C#, Java, Python, and web development. I have a keen eye for detail 
+and love creating clean and efficient code. {'\n'}I am always eager to expand my 
+knowledge in the field of software engineering.  {'\n'}I do not mind digging into
+boring work as more often than not it is where the details that matter are found.</p>
       </div>
-     
+
       <h2>Skills</h2>
       <hr className="Line"/>
-
       <div className="Skills_icons">
           <ul>
           {languages.map((item) =>(
@@ -35,6 +36,11 @@ const Header = ({ languages }) => {
 
             ))}
           </ul>
+      </div>
+      <h2>Documents</h2>
+      <hr className="Line"/>
+      <div className="Documents">
+          <button>Download Resume</button>
       </div>
       
     </div>

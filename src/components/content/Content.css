@@ -1,0 +1,65 @@
+.Content{
+ 
+    padding: 30px;
+    margin: 20px;
+    background: rgba(55, 0, 167, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(55, 0, 167, 0.31);
+    border-radius: 10px;
+
+}
+
+.Content  h2{
+    color: rgb(166, 174, 225);
+    font-weight: 500;
+  
+
+}
+.Description{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.Description img{
+    margin: 10px;
+    width: 25%;
+    height: 25%;
+   
+}
+
+.Description p{
+    
+    margin-top: 40px;
+    color: rgb(166, 174, 225);
+    font-weight: 500;
+
+    white-space: pre-wrap;
+}
+.Hobbies{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.Hobbies img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.Hobbies h3{
+    margin-top: 50px;
+    color: rgb(181, 207, 255);
+    font-weight: bold;
+    white-space: pre-wrap;
+}
+
+.Hobbies p{
+    margin-top: 5px;
+    color: rgb(166, 174, 225);
+    font-weight: 500;
+    white-space: pre-wrap;
+}
