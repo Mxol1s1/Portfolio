@@ -1,0 +1,70 @@
+.Work{
+    display: block;
+    justify-content: center;
+    
+}
+
+.Work h1{
+    text-align: center;
+    color: rgb(166, 174, 225);
+    font-weight: bold;
+}
+
+
+.Projects{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.Game{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(55, 0, 167, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(55, 0, 167, 0.31);
+}
+
+.Game img{
+   border-radius: 10px;
+}
+
+.Game h4{
+    margin-top: 10px;
+    color:#fff;
+    font-weight: bold;
+    margin-left: 40px;
+
+}
+
+.Game p{
+    color:#fff;
+    padding: 10px;
+
+}
+
+.Game button{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 30%;
+    outline: none;
+    background-color: rgb(74, 70, 139);
+    padding: 5px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration-line: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+}
+
+
+

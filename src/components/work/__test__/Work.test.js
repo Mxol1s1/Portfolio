@@ -13,7 +13,21 @@ beforeEach(() =>{
     getByTestId =  component.getByTestId;
 })
 
-test("test component render" ,() => {
-    const linkElement = getByTestId("work")
-    expect(linkElement.textContent).toBe("Work")
+test("portfolio description should be correct" ,() => {
+    const linkElement = getByTestId("portfolio")
+    expect(linkElement.textContent).toBe("This is my Portfolio website where I showcase my personal Projects \
+and passion of creating clean and efficient code.")
 })
+
+test("game description should be correct" ,() => {
+    const linkElement = getByTestId("game")
+    expect(linkElement.textContent).toBe("Fast- paced online game where you play as a square jelly \
+avoiding obstacles while collecting points, to dominate the leader board against other players globally.")
+})
+
+test("channel description should be correct" ,() => {
+    const linkElement = getByTestId("channel")
+    expect(linkElement.textContent).toBe("I am responsible for curating and presenting useful, code-related, content in \
+a variety of programming languages including C#, Java, Python, Javascript etc.")
+})
+
