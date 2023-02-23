@@ -17,8 +17,10 @@ const Work = () => {
         <div className="Game">
           <img src={me} alt="mxolisi_icon"/>
           <h4>Portfolio - recursive call :)</h4>
-          <p data-testid="portfolio">This is my Portfolio website where I showcase my personal Projects
-            and passion of creating clean and efficient code.
+          <p data-testid="portfolio">This is a React portfolio website, 
+showcasing projects, skills and personal information. The site is responsive and easy to navigate, 
+with a contact form for easy communication. The goal is to share my work and connect 
+with potential employers or collaborators.
           </p>
           <button>Github Link</button>
         </div>

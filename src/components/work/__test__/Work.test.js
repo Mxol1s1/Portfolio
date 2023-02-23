@@ -15,8 +15,10 @@ beforeEach(() =>{
 
 test("portfolio description should be correct" ,() => {
     const linkElement = getByTestId("portfolio")
-    expect(linkElement.textContent).toBe("This is my Portfolio website where I showcase my personal Projects \
-and passion of creating clean and efficient code.")
+    expect(linkElement.textContent).toBe("This is a React portfolio website, \
+showcasing projects, skills and personal information. The site is responsive and easy to navigate, \
+with a contact form for easy communication. The goal is to share my work and connect \
+with potential employers or collaborators.")
 })
 
 test("game description should be correct" ,() => {

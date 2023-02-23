@@ -1,0 +1,53 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact h2{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(166, 174, 225);
+    font-weight: bold;
+}
+
+.Line{
+    background:  rgb(74, 70, 139);;
+    height: 1px; 
+    border-radius: 10px;
+    border-color:  rgb(74, 70, 139);;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.Info p{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(166, 174, 225);
+}
+
+.Links{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+
+}
+
+.Links li{
+    display: inline;
+    justify-content: center
+}
+
+.Links img{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.Links img:hover{
+    transform: scale(2);
+}

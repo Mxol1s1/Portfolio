@@ -18,10 +18,10 @@ const Header = ({ languages }) => {
         <h2>Summary</h2>
         <hr className="Line"/>
         <p data-testid ="summary_description">I am a Graduate Software Engineer 
-skilled in C#, Java, Python, and web development. I have a keen eye for detail 
-and love creating clean and efficient code. {'\n'}I am always eager to expand my 
+skilled in C#, Java, Python, and web development with{'\n'} a keen eye for detail 
+and a love for creating clean and efficient code. {'\n'}I am always eager to expand my 
 knowledge in the field of software engineering.  {'\n'}I do not mind digging into
-boring work as more often than not it is where the details that matter are found.</p>
+boring work, as more often than not, it is where the details that matter are found.</p>
       </div>
 
       <h2>Skills</h2>

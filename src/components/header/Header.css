@@ -48,6 +48,8 @@
     display: inline;
 }
 
+
+
 .Skills_icons img{
     width: 50px;
     height: 50px;
@@ -96,3 +98,10 @@
     font-size: 14px;
     font-style: normal;
 }
+
+.Documents button:hover{
+    border-color: red;
+    transform: scale(1.05);
+}
+
+

@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, NavBar, Content , Work} from "./components";
+import { Header, NavBar, Content , Work, Contact} from "./components";
 import "./App.css";
 
 
@@ -51,6 +51,23 @@ const App = () =>
         },
         
       ]
+  const socials = [
+    {
+      id:1,
+      link:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", 
+      alt:"github_icon"
+    },
+    {
+      id:2,
+      link:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg", 
+      alt:"linkedIn_icon"
+    },
+    {
+      id:3,
+      link:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg", 
+      alt:"twitter_icon"
+    },
+  ]
     return (
     <div className="App">
         <div className="appBar">
@@ -59,6 +76,8 @@ const App = () =>
         </div>
         <Content/>
         <Work/>
+        <Contact socials = {socials}/>
+        
     </div>
     
         

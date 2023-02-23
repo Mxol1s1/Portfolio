@@ -45,7 +45,7 @@
 }
 
 .Game p{
-    color:#fff;
+    color:rgb(166, 174, 225);
     padding: 10px;
 
 }
@@ -64,6 +64,11 @@
     text-align: center;
     font-size: 10px;
     font-style: normal;
+}
+
+.Game button:hover{
+    border-color: red;
+    transform: scale(1.1);
 }
 
 

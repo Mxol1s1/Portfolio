@@ -29,17 +29,23 @@
 
 .navbar_links a
 {
-   background:  rgb(74, 70, 139);
-    border-radius: 30px;
+   
     padding: 10px;
     font-weight: bold;
     font-weight: 500;
-    color: #fff;
+    color: rgb(150, 146, 228);
     text-decoration-line: none;
     margin-left: 50px;
     text-transform: capitalize;
     text-align: center;
     font-size: 20px;
     font-style: normal;
+  
     
+}
+
+.navbar_links a:hover{
+    text-decoration-line: underline;
+   
+     
 }
