@@ -104,4 +104,68 @@
     transform: scale(1.05);
 }
 
+@media screen and (max-width:1050px) {
+ 
+    .Header h3{
+        font-size: 15px; 
+        margin: 5px;
+    }
+
+    .Header p{
+        margin: 5px;
+    }
+
+    .Summary{
+        margin-top: 40px;
+    }
+
+    .Summary h2{
+        margin-top: 20px;
+    }
+
+    .Documents  button{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .Profile img{
+        width: 40%;
+        height: 40%;
+    }
+
+    .Header  h2{
+        font-size: 15px;
+        color: rgb(166, 174, 225);
+        font-weight: 300;
+        
+    
+    }
+
+
+    .Profile p{
+        font-size: 8px;
+        
+    }
+    .Profile_text{
+        margin-top: 5%;
+        padding: 2px;
+    }
+
+    .Summary p{
+        color: #fff;
+        font-size: 12px;
+     
+    }
+    .Skills_icons img{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    
+
+}
+
 

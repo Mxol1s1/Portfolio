@@ -24,7 +24,11 @@ of programming and, between then and now, I will say I am very happy I made that
      
       <div className="Hobbies">
         <div>
-
+        <h2>Yeah, yeah, whatever. Got any hobbies?</h2>
+          <img src={lisa} alt="lisa"/>
+        </div>
+        <div>
+       
           <h3>Gaming</h3>
           <p data-testid ="hobby_desc1">I love playing fighting games and open world games{'\n'}
 particulary fantasy and action genres - NO FIFA! I hate
@@ -39,12 +43,6 @@ been posting some C# content to an anonymous channel between me and you
           </p>
           
         </div>
-
-        <div>
-          <h2>Yeah, yeah, whatever. Got any hobbies?</h2>
-          <img src={lisa} alt="lisa"/>
-        </div>
-    
       </div>
      
     </div>

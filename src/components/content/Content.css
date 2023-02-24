@@ -8,15 +8,13 @@
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(55, 0, 167, 0.31);
     border-radius: 10px;
-
 }
 
 .Content  h2{
     color: rgb(166, 174, 225);
     font-weight: 500;
-  
-
 }
+
 .Description{
     display: flex;
     justify-content:flex-start;
@@ -26,28 +24,27 @@
     margin: 10px;
     width: 25%;
     height: 25%;
-   
 }
 
 .Description p{
-    
-    margin-top: 40px;
+    margin-top: 10px;
     color: rgb(166, 174, 225);
     font-weight: 500;
-
     white-space: pre-wrap;
 }
+
 .Hobbies{
     display: inline-flex;
     justify-content: center;
 }
 
 .Hobbies img{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
     width: 80%;
     height: 80%;
     border-radius: 10px;
+    padding: 5px;
 }
 
 .Hobbies h3{
@@ -57,9 +54,63 @@
     white-space: pre-wrap;
 }
 
+.Hobbies h2{
+    margin-top: 20px;
+    color: rgb(166, 174, 225);
+    font-weight: bold;
+    white-space: pre-wrap;
+}
+
 .Hobbies p{
     margin-top: 5px;
     color: rgb(166, 174, 225);
     font-weight: 500;
     white-space: pre-wrap;
+}
+
+@media screen and (max-width:1050px) {
+
+    .Description{
+        display: flex;
+        flex-direction: column;
+    }
+    .Description img{
+        width: 80%;
+        height: 80%;
+    }
+
+    .Description p{
+        font-size: 12px;
+    }
+
+    .Content  h2{
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+
+    .Hobbies{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Hobbies h2{
+        font-size: 15px;
+    }
+
+
+    .Hobbies h3{
+        font-size: 14px;
+    }
+
+    .Hobbies p{
+        font-size: 12px;
+    }
+    
+
+}
+
+@media screen and (max-width: 700px) {
+    
+
 }
