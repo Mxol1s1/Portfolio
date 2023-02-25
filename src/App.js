@@ -1,6 +1,8 @@
-import React from "react";
-import { NavBar, Content , Work, Contact, ScrollUpImage, Home} from "./components";
+import React  from "react";
+import  { Route, Routes } from "react-router-dom";
+import { NavBar,Header, Content , Work, Contact, ScrollUpImage} from "./components";
 import "./App.css";
+import { AnimatePresence } from "framer-motion";
 
 const App = () =>
 {
@@ -64,31 +66,20 @@ const App = () =>
 
     },]
 
-    let Component;
-    console.log(window.location.pathname)
-    switch (window.location.pathname) {
-      case "/about":
-        Component = <Content/>
-        break;
-      
-      case "/projects":
-        Component =  <Work/>
-        break;
-      
-        case "/contact":
-          Component = <Contact socials = {socials}/>
-          break;
-    
-      default: 
-       Component = <Home languages = {languages}/> 
-        break;
-    }
 
     return (
       <div className="App">
           <ScrollUpImage/>
           <NavBar/>
-          {Component}
+          <AnimatePresence  >
+            <Routes>
+             <Route path="/" element = { <Header key="/" languages={languages}/>}/>
+             <Route path="/about"  element = { <Content key="/about"/>} />
+             <Route path="/contact"  element = { <Contact key="/contact" socials={socials}/>}/>
+             <Route path="/projects" element ={ <Work key="/projects"/>}/>
+            </Routes>
+          </AnimatePresence>
+        
       </div>
       
     )

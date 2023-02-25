@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import  { Link } from "react-router-dom";
 import "./NavBar.css"
 
 import logo from "../../assets/logo.png";
@@ -9,10 +10,11 @@ const NavBar = () => {
 
   const nav_menu = () =>{
     return <div className='navbar_menu_item'>
-    <p><a data-testid="home" href='/'>Home</a></p>
-    <p><a data-testid ="about" href='/about'>About</a></p>
-    <p><a data-testid="projects" href='/projects'>Projects</a></p>
-    <p><a data-testid="contact"  href='/contact'>Contact Me</a></p>
+
+    <p><Link data-testid="home" to='/'>Home</Link></p>
+    <p><Link data-testid ="about" to='/about'>About</Link></p>
+    <p><Link data-testid="projects" to='/projects'>Projects</Link></p>
+    <p><Link data-testid="contact"  to='/contact'>Contact Me</Link></p>
     </div>
   }
   return (

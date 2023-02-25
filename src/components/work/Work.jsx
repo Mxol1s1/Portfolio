@@ -2,13 +2,18 @@ import React from 'react'
 import game from "../../assets/game.png"
 import FWS from "../../assets/FWS.png"
 import me  from "../../assets/me.png"
-
+import { motion } from 'framer-motion'
 import "./Work.css"
 
 
 const Work = () => {
   return (
-    <div className="Work">
+    <motion.div 
+      initial={{y: "100%"}}
+      animate = {{y: "0%"}}
+      exit= {{opacity:1}}
+      transition ={{ duration: 0.90, ease:"easeOut"}}
+     className="Work">
 
       <h1>So what have you been working on?</h1>
 
@@ -65,7 +70,7 @@ with potential employers or collaborators.
 
       </div>
       
-    </div>
+    </motion.div>
   )
 }
 

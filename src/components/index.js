@@ -4,4 +4,3 @@ export { default as Content } from "./content/Content";
 export { default as Work }    from "./work/Work"
 export { default as Contact } from "./contact/Contact"
 export { default as ScrollUpImage } from "./ScrollUpImage"
-export { default as Home } from "./home/Home"

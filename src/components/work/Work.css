@@ -54,11 +54,15 @@
     margin-top: 10px;
     border-radius: 20px;
     width: 30%;
-    outline: none;
-    background-color: rgb(74, 70, 139);
-    padding: 5px;
     font-weight: bold;
     color: #fff;
+    outline: none;
+    background: rgba(137, 78, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(132, 70, 255, 0.31);
+    padding: 10px;
     text-decoration-line: none;
     text-transform: capitalize;
     text-align: center;
@@ -66,9 +70,9 @@
     font-style: normal;
 }
 
+
 .Game button:hover{
     border-color: red;
-    transform: scale(1.1);
 }
 
 

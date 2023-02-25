@@ -1,9 +1,15 @@
 import React from 'react'
 import "./Contact.css"
+import { motion } from 'framer-motion'
 
 const Contact = ( {socials} ) => {
   return (
-    <div className='Contact'>
+    <motion.div 
+    initial={{y: "100%"}}
+    animate = {{y: "0%"}}
+    exit= {{opacity:1}}
+    transition ={{ duration: 0.90, ease:"easeOut"}}
+    className='Contact'>
         <h2>Let's Connect</h2>
         <hr className='Line'/>
         <div className='Info'>
@@ -25,7 +31,7 @@ const Contact = ( {socials} ) => {
 
         </div>
        
-    </div>
+    </motion.div>
   )
 }
 

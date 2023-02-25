@@ -1,13 +1,18 @@
 import React from "react";
 import "./Header.css"
 import  profile  from "../../assets/profile.png";
-
+import { motion } from 'framer-motion'
 
 const Header = ({ languages }) => {
   return (
-    <div className="Header">
+    <motion.div 
+      initial={{y: "100%"}}
+      animate = {{y: "0%"}}
+      exit= {{opacity:1}}
+      transition ={{ duration: 0.90, ease:"easeOut"}}
+    className="Header">
       
-      <div className="Profile">
+      <div  className="Profile">
           <img src={profile} alt="profile"/>
           <div className="Profile_text">
             <h3 data-testid ="name">Mxolisi Magubane</h3>
@@ -27,7 +32,9 @@ boring work, as more often than not, it is where the details that matter are fou
 
       <h2>Skills</h2>
       <hr className="Line"/>
-      <div className="Skills_icons">
+      <div 
+
+        className="Skills_icons">
           <ul>
           {languages.map((item) =>(
 
@@ -40,7 +47,8 @@ boring work, as more often than not, it is where the details that matter are fou
       </div>
       <h2>Documents</h2>
       <hr className="Line"/>
-      <div className="Documents">
+      <div 
+       className="Documents">
           <button
           type="butoon"
           onClick={(e) => {
@@ -50,7 +58,7 @@ boring work, as more often than not, it is where the details that matter are fou
           >Download Resume</button>
       </div>
     
-    </div>
+    </motion.div>
   )
 }
 
