@@ -24,7 +24,7 @@ function ScrollUpImage() {
   return (
     <div className='Scroll'>
         {backToTopButton && (
-            <button >
+            <button onClick={() =>{scrollUp()}} >
               <img  src={logo} alt="logo"/>
             </button>
 
