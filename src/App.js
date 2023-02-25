@@ -1,14 +1,9 @@
 import React from "react";
-import { Header, NavBar, Content , Work, Contact, ScrollUpImage} from "./components";
-
-
+import { NavBar, Content , Work, Contact, ScrollUpImage, Home} from "./components";
 import "./App.css";
-
-
 
 const App = () =>
 {
-
     const languages = [
         {
           id:1,
@@ -51,9 +46,8 @@ const App = () =>
           link:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
           alt: "react_icon"
     
-        },
-        
-      ]
+        }, ]
+
   const socials = [
     {
       id:1,
@@ -68,24 +62,35 @@ const App = () =>
       alt:"linkedIn_icon",
       link:"https://www.linkedin.com/in/mxol1s1-magubane/"
 
-    },
-  ]
-    return (
-    <div className="App">
-         <ScrollUpImage/>
-        <div className="appBar">
-            <NavBar/>
-            <Header languages={languages} />
-           
-        </div>
-     
-        <Content/>
-        <Work/>
-        <Contact socials = {socials}/>
+    },]
 
-    </div>
+    let Component;
+    console.log(window.location.pathname)
+    switch (window.location.pathname) {
+      case "/about":
+        Component = <Content/>
+        break;
+      
+      case "/projects":
+        Component =  <Work/>
+        break;
+      
+        case "/contact":
+          Component = <Contact socials = {socials}/>
+          break;
     
-        
+      default: 
+       Component = <Home languages = {languages}/> 
+        break;
+    }
+
+    return (
+      <div className="App">
+          <ScrollUpImage/>
+          <NavBar/>
+          {Component}
+      </div>
+      
     )
 }
 

@@ -25,11 +25,11 @@
     width: 25%;
     padding: 10px;
     border-radius: 10px;
-    background: rgba(55, 0, 167, 0.2);
+    background: rgba(137, 78, 255, 0.2);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(55, 0, 167, 0.31);
+    border: 1px solid rgba(132, 70, 255, 0.31);
 }
 
 .Game img{

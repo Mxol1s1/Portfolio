@@ -6,16 +6,12 @@
 }
 
 body
-{
-    
-
-
-   background-color: rgb(74, 70, 139);
-
+{ 
+    background-color: #00315b;
+    background-image: linear-gradient(160deg, #00315b 0%, #0a2e4d 100%);
 }
 
-.appBar{
-    background-image: url("assets/background.png");
-}
+
+
 
 

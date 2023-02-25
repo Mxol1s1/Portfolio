@@ -10,9 +10,9 @@ const NavBar = () => {
   const nav_menu = () =>{
     return <div className='navbar_menu_item'>
     <p><a data-testid="home" href='/'>Home</a></p>
-    <p><a data-testid ="about" href='about'>About</a></p>
-    <p><a data-testid="projects" href='projects'>Projects</a></p>
-    <p><a data-testid="contact"  href='contact'>Contact Me</a></p>
+    <p><a data-testid ="about" href='/about'>About</a></p>
+    <p><a data-testid="projects" href='/projects'>Projects</a></p>
+    <p><a data-testid="contact"  href='/contact'>Contact Me</a></p>
     </div>
   }
   return (
