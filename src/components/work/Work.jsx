@@ -22,7 +22,13 @@ showcasing projects, skills and personal information. The site is responsive and
 with a contact form for easy communication. The goal is to share my work and connect 
 with potential employers or collaborators.
           </p>
-          <button>Github Link</button>
+          <button
+            type="button"
+            onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://github.com/Mxol1s1/Portfolio';
+            }}
+          >Github Link</button>
         </div>
 
         <div className="Game">
@@ -32,7 +38,13 @@ with potential employers or collaborators.
             avoiding obstacles while collecting points, to dominate 
             the leader board against other players globally.
           </p>
-          <button>Game Link</button>
+          <button
+           type="button"
+           onClick={(e) => {
+           e.preventDefault();
+           window.location.href='https://play.google.com/store/apps/details?id=com.magubane.jellygemtrack';
+           }}
+          >Game Link</button>
         </div>
 
         <div className="Game">
@@ -42,7 +54,13 @@ with potential employers or collaborators.
             a variety of programming languages including C#, Java, Python,
             Javascript etc.  
           </p>
-          <button>Youtube Link</button>
+          <button 
+            type="button"
+            onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://www.youtube.com/channel/UC0DqBdu4RbyS-PNr_AJdNXA';
+            }}
+          >Youtube Link</button>
         </div>
 
       </div>

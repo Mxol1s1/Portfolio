@@ -15,7 +15,9 @@ const Contact = ( {socials} ) => {
             {socials.map((item) =>(
 
                 <li  key={item.id}>
-                    <img src={item.link}  alt={item.alt}/>
+                  <a href={item.link}>
+                    <img src={item.icon}  alt={item.alt}/>
+                  </a>  
                 </li>
 
               ))}

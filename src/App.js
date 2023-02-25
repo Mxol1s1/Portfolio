@@ -1,11 +1,14 @@
 import React from "react";
-import { Header, NavBar, Content , Work, Contact} from "./components";
+import { Header, NavBar, Content , Work, Contact, ScrollUpImage} from "./components";
+
+
 import "./App.css";
 
 
 
 const App = () =>
 {
+
     const languages = [
         {
           id:1,
@@ -54,30 +57,32 @@ const App = () =>
   const socials = [
     {
       id:1,
-      link:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", 
-      alt:"github_icon"
+      icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", 
+      alt:"github_icon",
+      link:"https://github.com/Mxol1s1"
+
     },
     {
       id:2,
-      link:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg", 
-      alt:"linkedIn_icon"
-    },
-    {
-      id:3,
-      link:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg", 
-      alt:"twitter_icon"
+      icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg", 
+      alt:"linkedIn_icon",
+      link:"https://www.linkedin.com/in/mxol1s1-magubane/"
+
     },
   ]
     return (
     <div className="App">
+         <ScrollUpImage/>
         <div className="appBar">
             <NavBar/>
             <Header languages={languages} />
+           
         </div>
+     
         <Content/>
         <Work/>
         <Contact socials = {socials}/>
-        
+
     </div>
     
         

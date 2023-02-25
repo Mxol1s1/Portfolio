@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css"
 import  profile  from "../../assets/profile.png";
 
+
 const Header = ({ languages }) => {
   return (
     <div className="Header">
@@ -40,9 +41,15 @@ boring work, as more often than not, it is where the details that matter are fou
       <h2>Documents</h2>
       <hr className="Line"/>
       <div className="Documents">
-          <button>Download Resume</button>
+          <button
+          type="butoon"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href ="https://drive.google.com/file/d/1Dfmb1qLiyLU0Enqv3lCqmRV-L_-OGbKE/view?usp=sharing";
+          }}
+          >Download Resume</button>
       </div>
-      
+    
     </div>
   )
 }
