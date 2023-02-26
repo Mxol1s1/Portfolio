@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4f1679d2.css",
+    "main.js": "/static/js/main.2e254e93.js",
+    "static/media/profile.png": "/static/media/profile.f6ae4126c8d575f7966c.png",
+    "static/media/background.png": "/static/media/background.46769469d9e78125f9d9.png",
+    "static/media/about.png": "/static/media/about.5bb4ffaa6bd62452259e.png",
+    "static/media/lisa.png": "/static/media/lisa.723e4e2cb7c507692da0.png",
+    "static/media/game.png": "/static/media/game.8dba2233bd09d654fb75.png",
+    "static/media/logo.png": "/static/media/logo.69eca4aaf689ecf04840.png",
+    "static/media/me.png": "/static/media/me.33baa6111958652bcb5a.png",
+    "static/media/FWS.png": "/static/media/FWS.9766d99c962d3bf6c6f0.png",
+    "index.html": "/index.html",
+    "main.4f1679d2.css.map": "/static/css/main.4f1679d2.css.map",
+    "main.2e254e93.js.map": "/static/js/main.2e254e93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f1679d2.css",
+    "static/js/main.2e254e93.js"
+  ]
+}

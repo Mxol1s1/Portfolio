@@ -9,10 +9,7 @@
     border-radius: 10px;
     border-bottom-right-radius:0 ;
     border-bottom-left-radius: 0;
-    
-
 }
-
 
 .Header  h2{
     color: rgb(166, 174, 225);
@@ -20,13 +17,11 @@
 
 }
 
-
 .Profile img{
     width: 18%;
     height: 18%;
     clip-path: circle();
 }
-
 
 .Summary{
   margin-top: 10px;
@@ -66,7 +61,6 @@
     margin-left: 15px;
 }
 
-
 .Profile p{
     font-size: small;
 }
@@ -96,8 +90,7 @@
     padding: 10px;
     font-weight: bold;
     color: #fff;
-    text-decoration-line: none;
-   
+    text-decoration-line: none; 
     text-transform: capitalize;
     text-align: center;
     font-size: 14px;
@@ -145,7 +138,6 @@
         
     
     }
-
 
     .Profile p{
         font-size: 8px;

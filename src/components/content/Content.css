@@ -1,5 +1,4 @@
 .Content{
- 
     padding: 30px;
     margin: 20px;
     background: rgba(137, 78, 255, 0.2);
@@ -12,22 +11,42 @@
 
 .Content  h2{
     color: rgb(166, 174, 225);
-    font-weight: 500;
+    font-weight: bold;
+}
+
+.Tab{
+    background: rgba(137, 78, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(132, 70, 255, 0.31);
+    
+}
+
+.Content h3{
+    color: rgb(181, 207, 255);
+    font-weight: bold;
+}
+
+.TabList{
+    background: rgba(35, 9, 85, 0.555);
+   
 }
 
 .Description{
     display: flex;
     justify-content:flex-start;
+    margin-top: 20px;
 }
 
 .Description img{
-    margin: 10px;
+    margin: 5px;
     width: 25%;
     height: 25%;
 }
 
 .Description p{
-    margin-top: 10px;
+    margin-top: 5px;
     color: rgb(166, 174, 225);
     font-weight: 500;
     white-space: pre-wrap;
@@ -88,7 +107,6 @@
         font-weight: 300;
     }
 
-
     .Hobbies{
         display: flex;
         flex-direction: column;
@@ -106,8 +124,6 @@
     .Hobbies p{
         font-size: 12px;
     }
-    
-
 }
 
 @media screen and (max-width: 700px) {

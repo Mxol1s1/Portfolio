@@ -3,53 +3,69 @@ import "./Content.css"
 import  about from "../../assets/about.png";
 import  lisa from "../../assets/lisa.png";
 import { motion } from 'framer-motion';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 const Content = () => {
   return (
     <motion.div 
-      initial={{y: "100%"}}
-      animate = {{y: "0%"}}
-      exit= {{opacity:1}}
-      transition ={{ duration: 0.90, ease:"easeOut"}}
-     className="Content">
-      <h2 >Well, What can you say about  yourself? </h2>
-      
-      <div className="Description">
-        <img src={about} alt="about"/>
-        <p data-testid = "about">There is not really much to say - I don't really do much.{'\n'}
-I was born and raised in Durban, South Africa and have stayed put ever since.{'\n'}
-While in high school, I fell in love with the STEMS and discovered that solving math problems{'\n'}
-was actually more fun than beating King Of Fighters 2000's Final Boss (Good times though).{'\n'}
-Finished high school with my earned distinctions in Maths and Science and went off to varsity to study Pharmacy.{'\n'}
-You probably asking why Pharmacy - right? Well, the truth is I have no idea myself.{'\n'}
-I did Pharmacy till  my final year but, before I could finish, I got seduced by programming. I then made {'\n'}
-the most important and biggest decision of my life, that affected not just me but everyone around me{'\n'}
-family, friends, foes - I bet even God farted a bit. Yes, I made  a career pivot and pursued the world of{'\n'}
-of programming and, between then and now, I will say I am very happy I made that decision.</p>
-      </div>
-    
-      <div className="Hobbies">
+        initial={{y: "100%"}}
+        animate = {{y: "0%"}}
+        exit= {{opacity:1}}
+        transition ={{ duration: 0.90, ease:"easeOut"}}
+        className="Content">
+        <h2 >Well, What can you say about  yourself? </h2>
+        <div className="Description">
+            <img src={about} alt="about"/>
+            <Tabs selectedTabClassName='Tab'>
+              <TabList >
+               
+                <Tab><h3>Education</h3></Tab>
+                <Tab><h3>Experience</h3></Tab>
+              </TabList>
 
-        <div>
-        <h2>Yeah, yeah, whatever. Got any hobbies?</h2>
-          <img src={lisa} alt="lisa"/>
+              <TabPanel>
+                <ul className='List'>
+                  <li><p><strong>WeThinkCode_  (2021 -2023)</strong> </p></li>
+                    <p>   NQF level 5 Certificate</p>
+                  <li><p><strong>BPharmacy (incomplete)  (2016 -2020)</strong></p></li>
+                    <p>   Career pivot</p>
+                  <li><p><strong>Qhilika High School - 2015</strong></p></li>
+                  <p>    Matric - NSC</p>
+                </ul>
+              </TabPanel>
+
+              <TabPanel >
+              <ul className='List'>
+                  <li><p><strong>Game Development  (personal project)</strong> </p></li>
+                    <p>   Jelly Gem Track: Zero Gravity (C# and Unity)</p>
+                  <li><p><strong>Portfolio Website</strong></p></li>
+                    <p>    This is a static website built with React</p>
+                  <li><p><strong>Workshop Instructor</strong></p></li>
+                    <p>    WeThinkCode - (Java OOP)</p>
+                </ul>
+              </TabPanel>
+            </Tabs>
+
         </div>
-
+      <div className="Hobbies">
         <div>
-          <h3>Gaming</h3>
-          <p data-testid ="hobby_desc1">I love playing fighting games and open world games{'\n'}
-particulary fantasy and action genres - NO FIFA! I hate
-soccer/football period.
-          </p>
-          <h3>YouTubing?</h3>
-          <p data-testid ="hobby_desc2">I am not sure if I can call it a hobby but I have
-been posting some C# content to an anonymous channel between me and you 
-- it's actually called Fall3nWorldStudios.{'\n'} It not something I took seriously
+            <h2>Got any hobbies?</h2>
+            <img src={lisa} alt="lisa"/>
+        </div>
+        <div>
+            <h3>Gaming</h3>
+            <p data-testid ="hobby_desc1">I love playing fighting games like Mortal Kombat, Injustice 
+Tekken and open world games such Watch dogs, Sleeping dogs, GTA, COD etc. I enjoy mainly fantasy, action
+and adventure genres - NO FIFA! I hate soccer/football period.
+            </p>
+            <h3>YouTubing?</h3>
+            <p data-testid ="hobby_desc2">I am not sure if I can call it a hobby but I have 
+been posting some C# content to an anonymous channel - between me and you 
+- it's actually called Fall3nWorldStudios. It not something I took seriously
 till people started to find it useful</p>
         </div>
-
       </div>
-     
     </motion.div>
   )
 }
