@@ -14,7 +14,7 @@ const Content = () => {
         exit= {{opacity:1}}
         transition ={{ duration: 0.90, ease:"easeOut"}}
         className="Content">
-        <h2 >Well, What can you say about  yourself? </h2>
+        <h2 ><strong>Well, What can you say about  yourself?</strong> </h2>
         <div className="Description">
             <img src={about} alt="about"/>
             <Tabs selectedTabClassName='Tab'>
@@ -50,7 +50,7 @@ const Content = () => {
         </div>
       <div className="Hobbies">
         <div>
-            <h2>Got any hobbies?</h2>
+            <h2><strong>Got any hobbies?</strong></h2>
             <img src={lisa} alt="lisa"/>
         </div>
         <div>

@@ -25,24 +25,25 @@
 
 .Summary{
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .Summary p{
     margin-top: 10px;
-    color: #fff;
-    margin-bottom: 20px;
+    color: rgb(186, 193, 241);
     white-space: pre-wrap;
 }
 
 .Skills_icons{
     display: flex;
     justify-content: flex-end;
-    margin-top: 10px;
+    padding: 10px;
 
 }
 
 .Skills_icons li{
     display: inline;
+
 }
 
 
@@ -78,8 +79,11 @@
     border-color:  rgb(74, 70, 139);;
 }
 
+.Documents{
+    margin-top: 20px;
+}
+
 .Documents  button{
-    margin-top: 10px;
     border-radius: 20px;
     outline: none;
     background: rgba(137, 78, 255, 0.2);
@@ -105,8 +109,9 @@
 @media screen and (max-width:1050px) {
  
     .Header h3{
-        font-size: 15px; 
+        font-size: 12px; 
         margin: 5px;
+        margin-top: 10px;
     }
 
     .Header p{
@@ -127,8 +132,8 @@
     }
 
     .Profile img{
-        width: 40%;
-        height: 40%;
+        width: 60%;
+        height: 60%;
     }
 
     .Header  h2{
@@ -149,13 +154,12 @@
     }
 
     .Summary p{
-        color: #fff;
         font-size: 12px;
-     
     }
+
     .Skills_icons img{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
     
 }

@@ -14,7 +14,7 @@ const NavBar = () => {
     <p><Link data-testid="home" to='/'>Home</Link></p>
     <p><Link data-testid ="about" to='/about'>About</Link></p>
     <p><Link data-testid="projects" to='/projects'>Projects</Link></p>
-    <p><Link data-testid="contact"  to='/contact'>Contact Me</Link></p>
+    <p><Link data-testid="contact"  to='/contact'>Contact</Link></p>
     </div>
   }
   return (

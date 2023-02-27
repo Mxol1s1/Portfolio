@@ -24,8 +24,8 @@ const Header = ({ languages }) => {
           <hr className="Line"/>
           <p data-testid ="summary_description">I am a Graduate Software Engineer 
 skilled in C#, Java, Python, and web development with a keen eye for detail 
-and a love for creating clean and efficient code. {'\n'}I am always eager to expand my 
-knowledge in the field of software engineering.  {'\n'}I do not mind digging into
+and a love for creating clean and efficient code. I am always eager to expand my 
+knowledge in the field of software engineering. I do not mind digging into
 boring work, as more often than not, it is where the details that matter are found.</p>
       </div>
 

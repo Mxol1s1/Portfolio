@@ -26,6 +26,7 @@
 .Content h3{
     color: rgb(181, 207, 255);
     font-weight: bold;
+    font-size: 14px;
 }
 
 .TabList{
@@ -113,12 +114,12 @@
     }
 
     .Hobbies h2{
-        font-size: 15px;
+        font-size: 14px;
     }
 
 
     .Hobbies h3{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .Hobbies p{
