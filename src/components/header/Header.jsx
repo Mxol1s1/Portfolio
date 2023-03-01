@@ -34,7 +34,7 @@ boring work, as more often than not, it is where the details that matter are fou
       <div 
 
           className="Skills_icons">
-          <ul>
+          <ul data-testid ="skills">
           {languages.map((item) =>(
 
               <li  key={item.id}>

@@ -1,114 +1,36 @@
-.Work{
-    display: block;
-    justify-content: center;
-    
-}
-
 .Work h1{
     text-align: center;
     color: rgb(166, 174, 225);
     font-weight: bold;
+    
 }
 
-
-.Projects{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-   
+.Projects ul{
+   margin-top: 20px;
+   list-style: none;
+   display: flex;
+   justify-content: center;
 }
-
-.Game{
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    width: 25%;
-    padding: 10px;
-    border-radius: 10px;
-    background: rgba(137, 78, 255, 0.2);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(132, 70, 255, 0.31);
-}
-
-.Game img{
-   border-radius: 10px;
-}
-
-.Game h4{
-    margin-top: 10px;
-    color:#fff;
-    font-weight: bold;
-    margin-left: 40px;
-
-}
-
-.Game p{
-    color:rgb(166, 174, 225);
-    padding: 10px;
-
-}
-
-.Game button{
-    margin-top: 10px;
-    border-radius: 20px;
-    width: 30%;
-    font-weight: bold;
-    color: #fff;
-    outline: none;
-    background: rgba(137, 78, 255, 0.2);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(132, 70, 255, 0.31);
-    padding: 10px;
-    text-decoration-line: none;
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 10px;
-    font-style: normal;
-}
-
-
-.Game button:hover{
-    border-color: red;
-}
-
 
 @media screen and (max-width:1050px) {
-    .Game h4{
-        font-size: 15px;
-    
-    }
-    .Projects{
- 
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column
-    }
-
-    .Game{
-        width: 80%;
-        margin-top: 20px;
-      
-    }
-    .Game p{
-       font-size: 12px;
-    
-    }
-
 
     .Work h1{
         font-size: 20px;
     }
-
-
 }
 
 @media screen and (max-width: 700px) {
-    
 
+.Projects ul{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+    
 }
 
 

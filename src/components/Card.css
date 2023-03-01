@@ -1,0 +1,70 @@
+.Card{
+    width: 300px;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 10px;
+    background: rgba(137, 78, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(132, 70, 255, 0.31);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.image-container img{
+    overflow: hidden;
+    height: 200px;
+    margin-left: 26px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -5px;
+    
+}
+
+
+.content-container h4{
+    margin-top: 10px;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.content-container p{
+    color:rgb(166, 174, 225);
+    
+}
+
+.content-container button{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 40%;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    background: rgba(137, 78, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(132, 70, 255, 0.31);
+    padding: 5px;
+    text-decoration-line: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+
+}
+
+.content-container button:hover{
+    border-color: red;
+}
+
+@media screen and (max-width:1050px) {
+  
+
+}
