@@ -19,8 +19,7 @@ beforeEach(() =>{
 test("Hobbies description text 1 should be correct", () => {
     const descripstionElement =  getByTestId("hobby_desc1")
     expect(descripstionElement.textContent).toBe("I love playing fighting games like Mortal Kombat, Injustice \
-Tekken and open world games such Watch dogs, Sleeping dogs, GTA, COD etc. I enjoy mainly fantasy, action \
-and adventure genres - NO FIFA! I hate soccer/football period.")
+Tekken and open world games such Watch dogs, Sleeping dogs, GTA, COD etc.")
 })
 
 test("Hobbies description text 2 should be correct", () => {

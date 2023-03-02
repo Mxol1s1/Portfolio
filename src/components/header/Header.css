@@ -30,6 +30,7 @@
 
 .Summary p{
     margin-top: 10px;
+    width: 50%;
     color: rgb(186, 193, 241);
     white-space: pre-wrap;
 }
@@ -120,6 +121,10 @@
 
     .Summary{
         margin-top: 40px;
+    }
+
+    .Summary p{
+        width: 100%;
     }
 
     .Summary h2{

@@ -14,3 +14,12 @@ body
 
 
 
+
+@media screen and (max-width:1050px) {
+    body
+{ 
+    background-color: rgb(19, 4, 47);
+
+    background-image: none;
+}
+}

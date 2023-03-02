@@ -37,12 +37,11 @@ const Content = () => {
 
               <TabPanel >
               <ul className='List'>
-                  <li><p><strong>Game Development  (personal project)</strong> </p></li>
-                    <p>   Jelly Gem Track: Zero Gravity (C# and Unity)</p>
-                  <li><p><strong>Portfolio Website</strong></p></li>
-                    <p>    This is a static website built with React</p>
                   <li><p><strong>Workshop Instructor</strong></p></li>
                     <p>    WeThinkCode - (Java OOP)</p>
+                  <li><p><strong>Game Development  (personal project)</strong> </p></li>
+                    <p>   Jelly Gem Track: Zero Gravity (C# and Unity)</p>
+                
                 </ul>
               </TabPanel>
             </Tabs>
@@ -56,8 +55,7 @@ const Content = () => {
         <div>
             <h3>Gaming</h3>
             <p data-testid ="hobby_desc1">I love playing fighting games like Mortal Kombat, Injustice 
-Tekken and open world games such Watch dogs, Sleeping dogs, GTA, COD etc. I enjoy mainly fantasy, action
-and adventure genres - NO FIFA! I hate soccer/football period.
+Tekken and open world games such Watch dogs, Sleeping dogs, GTA, COD etc. 
             </p>
             <h3>YouTubing?</h3>
             <p data-testid ="hobby_desc2">I am not sure if I can call it a hobby but I have 
