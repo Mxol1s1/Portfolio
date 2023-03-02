@@ -10,7 +10,16 @@ const projects = [
       alt: "portfolio_image"      
     },
     {
-        id:2,
+      id:2,
+      title:"Mini-Crunch -News Articles ",
+      description:"A news articles highlights project made in Reactjs. The data for the news comes from a wordpress site Techcrunch. Using Axios HTTP , the data is requested from the public wordpress api site in wp-json format. The data comes embedded with HTML tags which poses the risk of malicious attacks via xss (cross site scripting), to clean the data - a Dompurify was used. The project diplays a list of articles in each article the image , title, date, summary and link to the full article is diplayed.", 
+      image:"mini.png",
+      link:"https://github.com/Mxol1s1/news_article",
+      linkDescription:"Github link",
+      alt: "web_image"      
+    },
+    {
+        id:3,
         title:"Jelly Gem Track: Zero Gravity",
         description:"Fast- paced online game where you play as a square jelly avoiding obstacles while collecting points, to dominate the leader board against other players globally.", 
   
@@ -21,7 +30,7 @@ const projects = [
       },
     
       {
-        id:3,
+        id:4,
         title:"Content Creator @fallenworldstudios",
         description:"I am responsible for curating and presenting useful, code-related, content in a variety of programming languages including C#, Java, Python,", 
         image:"FWS.png",

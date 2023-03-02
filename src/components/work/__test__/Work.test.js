@@ -17,7 +17,7 @@ test("Must have 3 projects listed", ()=>{
     const linkElement = getByTestId("projects")
     const { getAllByRole } = within(linkElement)
     const items = getAllByRole("listitem")
-    expect(items.length).toBe(3)
+    expect(items.length).toBe(4)
     
 })
 
