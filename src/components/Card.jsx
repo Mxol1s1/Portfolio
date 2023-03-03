@@ -15,7 +15,8 @@ const Card = ({project}) => {
                     type="button"
                     onClick={(e) => {
                     e.preventDefault();
-                    window.location.href= project.link;
+                    window.open(project.link, "_blank") ;
+                    
                     }}
                 >
                     {project.linkDescription}
