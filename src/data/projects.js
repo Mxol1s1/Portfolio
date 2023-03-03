@@ -14,8 +14,8 @@ const projects = [
       title:"Mini-Crunch -News Articles ",
       description:"A news articles highlights project made in Reactjs. The data for the news comes from a wordpress site Techcrunch. Using Axios HTTP , the data is requested from the public wordpress api site in wp-json format.", 
       image:"mini.png",
-      link:"https://github.com/Mxol1s1/news_article",
-      linkDescription:"Github link",
+      link:"https://minicrunch.netlify.app/",
+      linkDescription:"Site link",
       alt: "web_image"      
     },
     {
